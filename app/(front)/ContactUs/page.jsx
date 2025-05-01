@@ -2,11 +2,11 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='vazir text-xl w-full h-screen flex flex-col items-center justify-start my-4 p-10'>
+    <div className='vazir text-xl w-full h-screen flex flex-col items-center justify-start gap-5 my-4 p-10'>
       <div className="address w-full flex flex-row-reverse justify-start items-center">
         <h2 className=''>  : آدرس</h2>
         <p className='mr-2'> 
-         تهران - بزرگراه شهید بابایی - دانشگاه جامع امام حسین (ع) - موقعیت امام صادق(ع)- دانشكده و پژوهشكده فنی و مهندسی
+         تهران - بزرگراه شهید بابایی - دانشگاه جامع امام حسین (ع) - موقعیت امام صادق(ع) - دانشكده و پژوهشكده فنی و مهندسی
         </p>
       </div>
       <div className="phone w-full flex flex-row-reverse justify-start items-center">
