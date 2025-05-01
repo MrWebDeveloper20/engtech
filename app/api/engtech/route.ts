@@ -1,5 +1,5 @@
 import dbClient from '@/db/mongodb';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
 export const GET = async () => {
   // const { car } = data
