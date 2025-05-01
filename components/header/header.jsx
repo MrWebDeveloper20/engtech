@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import Link from 'next/link'
 
 const Header = () => {
-  const [select , setSelect] = useState('home')
+  const [select , setSelect] = useState('')
   return (
     <div className='vazir w-full h-24 flex justify-between items-center rounded-b-lg bg-gray-200'>
       <Link href={'/'} className="login flex flex-col items-center justify-center max-w-1/6">
