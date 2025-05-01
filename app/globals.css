@@ -32,3 +32,17 @@ body {
 .vazir{
   font-family: vazir;
 }
+
+.slick-slide > div {
+  width: '300px';
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-slide  { 
+  width: '300px';
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
