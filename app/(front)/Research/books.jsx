@@ -22,14 +22,18 @@ const Books = () => {
       getAirportIn()
     }, [])
 
+    const [titleSelect, setTitle] = useState('')
+    const [AuthorSelect, setAuthor] = useState('')
+    const [SubjectSelect, setSubject] = useState('')
+
     const handleSearchTitle = (event)=>{
-        console.log(event.target.value)
+        setTitle(event.target.value)
     }
     const handleSearchAuthor = (event)=>{
-        console.log(event.target.value)
+        setAuthor(event.target.value)
     }
     const handleSearchSubject = (event)=>{
-        console.log(event.target.value)
+        setSubject(event.target.value)
     }
   return (
    <div className="w-full h-screen flex flex-col justify-start items-center">
@@ -50,7 +54,9 @@ const Books = () => {
     <div className='vazir w-full h-screen grid grid-cols-4 gap-3 p-4 overflow-y-scroll '>
 
             {books && books.map((book)=>(
-                <div key={Math.random() * 100} className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
+                (book.name).includes(titleSelect) &&  (book.author).includes(AuthorSelect) &&  (book.subject).includes(SubjectSelect) ? 
+                (
+                    <div key={Math.random() * 100} className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
                     <div className="img flex justify-center items-center">
                         <Image src={`/images/${book.img}`} alt='' width={200} height={200} />
                     </div>
@@ -69,9 +75,12 @@ const Books = () => {
                     <button className='bg-blue-500 text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> دانلود  </button>
 
                 </div>
+                ) : null
+
+           
             ))}
 
-            <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
+            {/* <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
                 <div className="img flex justify-center items-center">
                     <Image src={'/images/book.png'} alt='' width={200} height={200} />
                 </div>
@@ -109,7 +118,7 @@ const Books = () => {
                 </div>
                 <button className='bg-blue-500 text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> دانلود  </button>
 
-            </div>
+            </div> */}
         
     </div>
    </div>
