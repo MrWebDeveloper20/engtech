@@ -32,7 +32,7 @@ const Books = () => {
         console.log(event.target.value)
     }
   return (
-   <div className="w-full flex flex-col justify-start items-center">
+   <div className="w-full h-screen flex flex-col justify-start items-center">
     <div className="search w-full flex flex-row-reverse gap-3 p-3 bg-gray-200 rounded-tr-lg" >
         <div className="title w-1/3 flex flex-col items-end">
             <label className='mr-3' htmlFor="title"> جستجو (عنوان) </label>
@@ -71,7 +71,7 @@ const Books = () => {
                 </div>
             ))}
 
-            {/* <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
+            <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
                 <div className="img flex justify-center items-center">
                     <Image src={'/images/book.png'} alt='' width={200} height={200} />
                 </div>
@@ -149,7 +149,7 @@ const Books = () => {
                 </div>
                 <button className='bg-blue-500 text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> دانلود  </button>
 
-            </div> */}
+            </div>
         
     </div>
    </div>
