@@ -1,7 +1,7 @@
 import dbClient from '@/db/mongodb';
 import { NextRequest, NextResponse } from 'next/server';
 
-export const GET = async (request: NextRequest) => {
+export const GET = async () => {
   // const { car } = data
   const book = await dbClient
     .db('engtech')
