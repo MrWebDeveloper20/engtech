@@ -12,7 +12,7 @@ const Books = () => {
           const resairportIn = await fetch(`/api/engtech`)
             .then((resairportIn) => resairportIn.json())
             .then((dat) => {
-              console.log('dat.airport', dat)
+            //   console.log('books', dat)
               setBooks(dat)
             //   setLoading(false) 
               // setlength(dat.length)
@@ -80,7 +80,7 @@ const Books = () => {
            
             ))}
 
-            {/* <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
+            <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
                 <div className="img flex justify-center items-center">
                     <Image src={'/images/book.png'} alt='' width={200} height={200} />
                 </div>
@@ -100,7 +100,7 @@ const Books = () => {
 
             </div>
 
-            <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
+            {/* <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
                 <div className="img flex justify-center items-center">
                     <Image src={'/images/book.png'} alt='' width={200} height={200} />
                 </div>
