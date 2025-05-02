@@ -1,7 +1,7 @@
 'use client'
 import React, {useEffect , useState} from 'react'
 import Image from 'next/image'
-const Books = () => {
+const Mags = () => {
 
     const [books, setBooks] = useState([])
     useEffect(() => {
@@ -125,4 +125,4 @@ const Books = () => {
   )
 }
 
-export default Books
+export default Mags
