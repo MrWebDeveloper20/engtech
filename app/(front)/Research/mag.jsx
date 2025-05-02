@@ -9,7 +9,7 @@ const Mags = () => {
       
      async function getAirportIn() {
         
-          const resairportIn = await fetch(`/api/books`)
+          const resairportIn = await fetch(`/api/mags`)
             .then((resairportIn) => resairportIn.json())
             .then((dat) => {
             //   console.log('books', dat)
@@ -41,10 +41,6 @@ const Mags = () => {
         <div className="title w-1/3 flex flex-col items-end">
             <label className='mr-3' htmlFor="title"> جستجو (عنوان) </label>
             <input onChange={()=>handleSearchTitle(event)} className='w-full ring-1 rounded-lg py-1 px-3 text-right' type="text" name="title" id="title" />
-        </div>
-        <div className="title w-1/3 flex flex-col items-end">
-            <label className='mr-3' htmlFor="title"> جستجو (نویسنده) </label>
-            <input onChange={()=>handleSearchAuthor(event)} className='w-full ring-1 rounded-lg py-1 px-3 text-right' type="text" name="title" id="title" />
         </div>
         <div className="title w-1/3 flex flex-col items-end">
             <label className='mr-3' htmlFor="title"> جستجو (موضوع) </label>
@@ -82,19 +78,15 @@ const Mags = () => {
 
             <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
                 <div className="img flex justify-center items-center">
-                    <Image src={'/images/book.png'} alt='' width={200} height={200} />
+                    <Image src={'/images/mag1.png'} alt='' width={200} height={200} />
                 </div>
                 <div className="title flex flex-row-reverse items-center">
                     <h2 className='mr-3'> : عنوان </h2>
-                    <h2 className='mr-3'>کتاب شماره 4</h2>
-                </div>
-                <div className="title flex flex-row-reverse items-center">
-                    <h2 className='mr-3'> : نویسنده </h2>
-                    <h2 className='mr-3'>  دکتر رضا حسینی </h2>
+                    <h2 className='mr-3'>مجله مکانیک هوافضا </h2>
                 </div>
                 <div className="title flex flex-row-reverse items-center">
                     <h2 className='mr-3'> : موضوع </h2>
-                    <h2 className='mr-3'>  ریاضی مهندسی </h2>
+                    <h2 className='mr-3'>   مکانیک</h2>
                 </div>
                 <button className='bg-blue-500 text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> دانلود  </button>
 

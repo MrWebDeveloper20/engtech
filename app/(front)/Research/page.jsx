@@ -1,6 +1,7 @@
 'use client'
 import React, {useState} from 'react'
 import Books from './books'
+import Mags from './mag'
 
 const page = () => {
   const [select , setSelect] = useState('book')
@@ -17,6 +18,7 @@ const page = () => {
       </div>
       <div className="w-5/6 h-screen ring-1 rounded-r-lg mr-4">
         {select == 'book' && <Books />}
+        {select == 'magazine' && <Mags />}
       </div>
     </div>
   )
