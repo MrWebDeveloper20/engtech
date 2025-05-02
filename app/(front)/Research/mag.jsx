@@ -76,19 +76,37 @@ const Mags = () => {
            
             ))}
 
-            <div className='w-72 h-fit flex flex-col gap-3 ring-1 rounded-lg'>
+            <div className='w-72 h-[450px] flex flex-col gap-3 ring-1 rounded-lg'>
                 <div className="img flex justify-center items-center">
                     <Image src={'/images/mag1.png'} alt='' width={200} height={200} />
                 </div>
                 <div className="title flex flex-row-reverse items-center">
                     <h2 className='mr-3'> : عنوان </h2>
-                    <h2 className='mr-3'>مجله مکانیک هوافضا </h2>
+                    <h2 className='mr-3'> مکانیک هوافضا </h2>
                 </div>
                 <div className="title flex flex-row-reverse items-center">
                     <h2 className='mr-3'> : موضوع </h2>
                     <h2 className='mr-3'>   مکانیک</h2>
                 </div>
-                <a href='https://maj.ihu.ac.ir/' className='bg-blue-500 text-center text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> 
+                <a target='blank' href='https://fma.ihu.ac.ir/' className='bg-blue-500 text-center text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> 
+                    <span className=''> مشاهده  </span>
+                </a>
+
+            </div>
+
+            <div className='w-72 h-[450px] flex flex-col gap-3 ring-1 rounded-lg'>
+                <div className="img flex justify-center items-center">
+                    <Image src={'/images/mag2.jpg'} alt='' width={200} height={220} />
+                </div>
+                <div className="title flex flex-row-reverse items-center">
+                    <h2 className='mr-3'> : عنوان </h2>
+                    <h2 className='mr-3'> مکانیک سیالات و آئرودینامیک </h2>
+                </div>
+                <div className="title flex flex-row-reverse items-center">
+                    <h2 className='mr-3'> : موضوع </h2>
+                    <h2 className='mr-3'>   مکانیک</h2>
+                </div>
+                <a target='blank' href='https://maj.ihu.ac.ir/' className='bg-blue-500 text-center text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> 
                     <span className=''> مشاهده  </span>
                 </a>
 
