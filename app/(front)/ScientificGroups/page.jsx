@@ -16,7 +16,7 @@ const page = () => {
             <h3 className=''> امکانات آموزشی </h3>
             <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
-            <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
+            <h3 className='text-sm'> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
         }
         <h2 onClick={()=>setSelect('mechanic')} className={` ${select == 'mechanic' && 'bg-green-500 text-white px-2 rounded-lg ' }hover:text-blue-800 p-1 cursor-pointer rounded-lg  `}> مهندسی مکانیک </h2>
@@ -27,7 +27,7 @@ const page = () => {
             <h3 className=''> امکانات آموزشی </h3>
             <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
-            <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
+            <h3 className='text-sm'> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
         }
         <h2 onClick={()=>setSelect('Industrial')} className={` ${select == 'Industrial' && 'bg-green-500 text-white px-2 rounded-lg ' }hover:text-blue-800 p-1 cursor-pointer rounded-lg  `}> مهندسی صنایع </h2>
@@ -38,7 +38,7 @@ const page = () => {
             <h3 className=''> امکانات آموزشی </h3>
             <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
-            <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
+            <h3 className='text-sm'> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
         }
         <h2 onClick={()=>setSelect('chemical')} className={` ${select == 'chemical' && 'bg-green-500 text-white px-2 rounded-lg ' }hover:text-blue-800 p-1 cursor-pointer rounded-lg    `}> مهندسی شیمی </h2>
@@ -49,7 +49,7 @@ const page = () => {
             <h3 className=''> امکانات آموزشی </h3>
             <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
-            <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
+            <h3 className='text-sm'> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
         }
       </div>
