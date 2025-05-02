@@ -88,7 +88,9 @@ const Mags = () => {
                     <h2 className='mr-3'> : موضوع </h2>
                     <h2 className='mr-3'>   مکانیک</h2>
                 </div>
-                <button className='bg-blue-500 text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> دانلود  </button>
+                <a href='https://maj.ihu.ac.ir/' className='bg-blue-500 text-center text-white w-1/2 mx-auto rounded-xl py-2 mb-2'> 
+                    <span className=''> مشاهده  </span>
+                </a>
 
             </div>
 
