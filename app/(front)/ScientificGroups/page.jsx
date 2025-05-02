@@ -13,8 +13,8 @@ const page = () => {
           select == 'airospace' &&
           <div className='flex flex-col items-end pb-2 gap-2 text-blue-400 mr-3'>
             <h3 className=''> انجمن علمی </h3>
-            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> امکانات آموزشی </h3>
+            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
             <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
@@ -24,8 +24,8 @@ const page = () => {
           select == 'mechanic' &&
           <div className='flex flex-col items-end pb-2 gap-2 text-blue-400 mr-3'>
             <h3 className=''> انجمن علمی </h3>
-            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> امکانات آموزشی </h3>
+            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
             <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
@@ -35,8 +35,8 @@ const page = () => {
           select == 'Industrial' &&
           <div className='flex flex-col items-end pb-2 gap-2 text-blue-400 mr-3'>
             <h3 className=''> انجمن علمی </h3>
-            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> امکانات آموزشی </h3>
+            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
             <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
@@ -46,8 +46,8 @@ const page = () => {
           select == 'chemical' &&
           <div className='flex flex-col items-end pb-2 gap-2 text-blue-400 mr-3'>
             <h3 className=''> انجمن علمی </h3>
-            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> امکانات آموزشی </h3>
+            <h3 className=''> رشته - گرایش ها </h3>
             <h3 className=''> کرسی های تخصصی </h3>
             <h3 className=''> همایش های علمی و کارگاه های آموزشی </h3>
           </div>
