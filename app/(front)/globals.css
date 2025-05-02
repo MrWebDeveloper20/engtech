@@ -27,7 +27,7 @@ body {
 
 @font-face {
   font-family: vazir;
-  src: url('/fonts/vazir-Bold.ttf');
+  src: url('./Vazir-Bold.ttf');
 }
 .vazir{
   font-family: vazir;
