@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 export const GET = async () => {
   // const { car } = data
   const book = await dbClient
-    .db('engtech')
+    .db('rojanoo')
     .collection('books')
     .find()
     .toArray();
