@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Systems = () => {
   return (
    <div className="vazir w-full h-fit flex flex-col items-center px-3">
-        <h2 className='text-xl text-blue-500'> سامانه های دانشگاه </h2>
+        <h2 className='lg:text-xl max-sm:text-lg text-blue-500'> سامانه های دانشگاه </h2>
         <div className=' w-full lg:h-40 max-sm:h-fit flex lg:flex-row max-sm:flex-col gap-3'>
                 <div className='lg:w-1/4 max-sm:w-full gap-3 flex justify-center items-center'>
                     <a target='blank' href='https://book.ihu.ac.ir/' className="system1 lg:w-1/2 max-sm:w-1/3 h-40 flex flex-col justify-around items-center bg-green-300 rounded-lg">
